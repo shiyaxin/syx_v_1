@@ -95,6 +95,6 @@ public class HomeFragment extends Fragment {
         File test = new File(dataDirectory, "test");
         String path = test.getPath();
         boolean mkdirs = test.mkdirs();
-        text.setText("result:" + mkdirs + ", path:" + path);
+        text.setText("result:" + mkdirs + ", pathaaaaaaaa:" + path);
     }
 }
