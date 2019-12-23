@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_titles">
+        <item>@string/tab_text_1</item>
+        <item>@string/tab_text_2</item>
+        <item>@string/tab_text_3</item>
+        <item>@string/tab_text_4</item>
+        <item>@string/tab_text_5</item>
+        <item>@string/tab_text_6</item>
+        <item>@string/tab_text_7</item>
+        <item>@string/tab_text_8</item>
+        <item>@string/tab_text_9</item>
+        <item>@string/tab_text_10</item>
+        <item>@string/tab_text_11</item>
+        <item>@string/tab_text_12</item>
+        <item>@string/tab_text_13</item>
+        <item>@string/tab_text_14</item>
+        <item>@string/tab_text_15</item>
+        <item>@string/tab_text_16</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>
