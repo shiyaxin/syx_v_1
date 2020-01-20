@@ -2,13 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "29.0.2"
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "com.syx.test"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+        /*vectorDrawables.useSupportLibrary = true*/
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -46,6 +47,7 @@ dependencies {
     //annotation
     implementation 'com.jakewharton:butterknife:10.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
-
+    //
+    //implementation 'com.gyf.immersionbar.ImmersionBar'
     testImplementation 'junit:junit:4.12'
 }

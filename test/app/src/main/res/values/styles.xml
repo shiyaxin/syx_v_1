@@ -15,7 +15,15 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="PopMenuStyle">
+        <!-- 是否覆盖在Toolbar之上 -->
+        <item name="overlapAnchor">false</item>
+        <!--overflow menu背景颜色 -->
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownWidth">50dp</item>
+        <item name="android:dropDownVerticalOffset">111dp</item>
+    </style>
 
     <style name="FullscreenTheme" parent="AppTheme">
         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
@@ -23,10 +31,9 @@
         <item name="android:windowBackground">@null</item>
         <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-    </style>
+    </style>ShapeAppearanceOverlay
 
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
-
 </resources>
